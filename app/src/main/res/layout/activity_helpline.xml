@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sarabesh.easytax.Helpline"
+    android:orientation="vertical"
+    android:baselineAligned="false"
+    android:background="#000">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="aaykar sampark kendra(ask)\n general queries:"
+            android:id="@+id/textView6"
+            android:textColor="#fff" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:id="@+id/imageButton9"
+            android:src="@drawable/phone"
+            android:background="#000"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="call"
+            android:id="@+id/button19"
+            android:background="#026ef0" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="E-Filling queries"
+            android:id="@+id/textView25"
+            android:textColor="#fff" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:id="@+id/imageButton10"
+            android:src="@drawable/phone"
+            android:background="#000"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="call"
+            android:id="@+id/button20"
+            android:background="#026ef0" /></LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Pan or tan updation"
+            android:id="@+id/textView26"
+            android:textColor="#fff" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_weight="0"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton11"
+            android:src="@drawable/phone"
+            android:background="#000"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_weight="0"
+            android:layout_height="wrap_content"
+            android:text="call"
+            android:id="@+id/button21"
+            android:background="#026ef0" /></LinearLayout>
+
+
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ALL phone lines will be supported from 9am to 6pm ,on all 6 working  days"
+        android:id="@+id/textView28"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/button21"
+        android:layout_alignParentEnd="true" />
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView2"
+
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:background="#000"
+    android:clickable="false"
+    android:theme="@android:style/Theme.Holo.Dialog.NoActionBar.MinWidth">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOW TO REDUCE TAX\n\n 1.By contributing to public provident fund account,you can get your tax deduction under section 80C,the Indian income tax act,1961.\n\n 2.Paying premium toward life insurance policies for self,spouse and child under section 80C. The amount got after maturity is free from tax.Sometimes, it is subjected to terms and conditions.\n\n 3.The amount invested in national saving certificate is eligible for tax deductions.It is one of the highly secured modes of investments of india.But the interest earned is taxable.The schemes are applicable for tax deductions.\n\n 4.Tax deducted from investing in fixed deposits for period of 5years.Many banks are offering to save tax fixed deposits.\n\n 5.senior citizens can get their tax deducted by investing in senior citizen saving scheme offered by banks.\n\n 6. Investing a five year period of deposits in post office can also be at the office directly.\n\n 7.Investment in  unit linked insurance plan for urs,spouse and children to reduce tax by act of section 80C.\n\n 8.Equated monthly repayment of principle amount of house loans is eligible for tax deduction under section 80C.\n\n 9.According to act 1961, mutual fund and else are acceptable for tax payment.\n\n 10.Stampduty and registration fee for transferring the property are acceptable for tax deductions.\n\n 11.National pension scheme that can be used after retirement are also applicable under section 80C of act 1997. \n\n 12.Tution fee paid for your children is fully deductable in your yearly tax. This tution fee does no include bus fee, donations etc....\n\n 13.Infrastructure bonds are also included from the act of 2015-16.\n\n 14.Charity donation are also acceptable under the new act of 80G. This donations are to be done before 31st may of each year is acceptable.\n\n 15.medical insurance scheme / treatment can also be shown for excemption for a certain percentage for extreme cases. 25,000 and 30,000 are deductable for male and senior citizen respectively of treatments.\n\n 16. Deduction of house or ware house rents upto one-third are applicable.\n\n "
+        android:id="@+id/textView3"
+        android:textColor="#fff"
+        android:layout_margin="16dp" /></LinearLayout>
+</ScrollView>

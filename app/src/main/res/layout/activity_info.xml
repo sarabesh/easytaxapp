@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView2"
+
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:background="#000"
+    android:clickable="false"
+    android:theme="@android:style/Theme.Holo.Dialog.NoActionBar.MinWidth">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="INFO AT  POINT\n\n 1.	Act to give effects on finance proposed by central govt for this year is being enacted by the parliament on 67th year of republic.\n\n 2.	The net agricultural income shall be taken in to account in the manner of clause,so that the total income is comprised in the total.\n\n 3.	“gold deposit scheme,1999” deposit certificates to be issued under gold monetisation.\n\n 4.	In case of foreign company engaged in business of mining of diamonds,no income shall be deemed through activities.\n\n 5.	Companies established or to be incorporated in india,to be notified by section 7.\n\n 6.	Amendment of section 10AA to be done.\n\n 7.	Amendment of section 17 &amp; 24 to be done likely first.\n\n 8.	Budget speech on agricultural and farmer to be done in welfare 4 rural sector 9 including health care,education to be reviewed soon .\n\n 9.	Substitution of new section of 25A,25AA and 25B in place of 54EE.\n\n 10.	New chapter of law to be made under CHAPTER XII-EB61.\n\n 11.	To lay dow of taxes during financial year 2016-17 other than salary are to be subjected to such a deduction.\n\n 12.	MEMORANDAM OF UNDERSTANDING(MOU) TO BE SIGN WITH GOVT OF SWISS IN THE CASE OF RETRIVAL OF BLACK MONEY.\n\n 13.	Agreement  between republic india and govt.st kitts for exchange of information.\n\n 14.	Income tax body around cities are shifted in some location.\n\n 15.	Clarification of new laws to be held in next decade of months.\n\n 16.	Senior citizen who ages 80 will be excluded from act 1961.\n\n 17.	IFSC  banking units to be checked.\n\n 18.	 Admission to claim all bad debts are read.\n\n 19.	E-filling of appeals to be extended.\n\n "
+        android:id="@+id/textView27"
+        android:background="#000"
+        android:textColor="#fff"
+        android:layout_margin="16dp" /></LinearLayout>
+</ScrollView>
+

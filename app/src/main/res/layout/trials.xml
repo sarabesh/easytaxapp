@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.sarabesh.easytax.login"
+        android:orientation="horizontal"
+        android:background="#000">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#026ef0"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+
+                android:orientation="vertical"
+                android:background="#000"
+                android:onClick="tc"
+                android:touchscreenBlocksFocus="false"
+                android:layout_margin="8dp">
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:id="@+id/imageButton"
+                    android:src="@drawable/calc"
+                    android:background="#000"
+
+                    android:outlineProvider="background"
+                    android:cropToPadding="false"
+                    android:focusable="false" />
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:text="tax calci"
+                    android:id="@+id/button"
+                    android:onClick="tc"
+                    android:background="#000"
+                    android:textColor="#026eef"
+                    /></LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+
+                android:orientation="vertical"
+                android:background="#95B9C7"
+                android:onClick="rt"
+                android:layout_margin="8dp">
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:id="@+id/imageButton3"
+                    android:src="@drawable/labyrinth"
+                    android:background="#000"
+
+                    />
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:text=" ways to invest"
+                    android:id="@+id/button5"
+                    android:background="#000"
+                    android:textColor="#026eef" /></LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:layout_margin="8dp">
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:id="@+id/imageButton5"
+                    android:src="@drawable/act"
+                    android:background="#000"
+                    />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Acts"
+                    android:id="@+id/button6"
+                    android:background="#000"
+                    android:textColor="#026eef" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:layout_margin="8dp">
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:id="@+id/imageButton7"
+                    android:src="@drawable/apply"
+                    android:background="#000"
+                    />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="apply FOR PAN/TAN"
+                    android:id="@+id/button7"
+                    android:background="#000"
+                    android:textColor="#026eef" />
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Login"
+                android:id="@+id/button15"
+                android:background="#000"
+                android:textColor="#ffff"
+                android:layout_margin="4dp" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#026ef0"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+
+                android:orientation="vertical"
+                android:background="#95B9C7"
+
+                android:layout_margin="8dp">
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:id="@+id/imageButton2"
+                    android:src="@drawable/info2"
+                    android:background="#000"
+
+
+                    />
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:text=" info at point "
+                    android:id="@+id/button4"
+                    android:onClick="ai"
+                    android:background="#000"
+                    android:textColor="#026eef"
+                    /></LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+
+                android:orientation="vertical"
+                android:background="#95B9C7"
+                android:onClick="fd"
+                android:layout_margin="8dp">
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:id="@+id/imageButton4"
+                    android:src="@drawable/print"
+                    android:background="#000"
+
+                    />
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:text=" forms for download "
+                    android:id="@+id/button3"
+                    android:background="#000"
+                    android:textColor="#026eef" /></LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:layout_weight="3"
+                android:layout_margin="8dp">
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:id="@+id/imageButton6"
+                    android:src="@drawable/map"
+                    android:background="#000"
+                    android:layout_weight="2" />
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:id="@+id/button16"
+                    android:text="LOCATION IN MAP"
+
+                    android:background="#000"
+                    android:layout_weight="1"
+                    android:textColor="#026eef" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:layout_margin="8dp">
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:id="@+id/imageButton8"
+                    android:src="@drawable/call2"
+                    android:background="#000"
+                    android:layout_weight="2" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:text="tAX HELPLINE"
+                    android:id="@+id/button17"
+
+                    android:background="#000"
+                    android:layout_weight="1"
+                    android:textColor="#026eef" />
+            </LinearLayout>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="REGISTER"
+                android:id="@+id/button18"
+
+                android:textColor="#ffff"
+                android:background="#000"
+                android:layout_margin="4dp" /></LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

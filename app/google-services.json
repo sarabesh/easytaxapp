@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "793877714425",
+    "firebase_url": "https://areuthere-6644a.firebaseio.com",
+    "project_id": "areuthere-6644a",
+    "storage_bucket": "areuthere-6644a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793877714425:android:bd97cf8b157be575",
+        "android_client_info": {
+          "package_name": "com.example.sarabesh.easytax"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "793877714425-ilgg6vao6ec5jb46p29jqv2q7bino74h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBTxpoGuTM2hYO2B4rvYGZmvmjHv2UmPY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
